@@ -5,8 +5,8 @@ const dynamodb = new AWS.DynamoDB.DocumentClient();
 const s3 = new AWS.S3();
 const parser = require('lambda-multipart-parser');
 
-const imageBucketName = 'sc2021b3-demoapp-0000';
-const userinfoUrl = 'https://dev-9zllcerz.us.auth0.com/userinfo';
+const imageBucketName = 'sc2021b3-demoapp-0130';
+const userinfoUrl = 'https://dev-4o23ncmq.us.auth0.com/userinfo';
 
 // Auth0のuserinfoエンドポイントからユーザ情報を取得
 const getUserinfo = async (event) => {
